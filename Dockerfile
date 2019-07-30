@@ -11,6 +11,7 @@ RUN apk add --no-cache --virtual .run-deps gettext bash jq \
 COPY config.json ${HOME_DIR}/config.json
 
 COPY docker-entrypoint /
+
 ENTRYPOINT ["/docker-entrypoint"]
 
 HEALTHCHECK --interval=5s --timeout=3s \
