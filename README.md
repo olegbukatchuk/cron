@@ -42,4 +42,4 @@ docker run -d \
 
 ## Docker Hub
 
-See image on [hub.docker.com] (https://hub.docker.com/r/olegbukatchuk/cron)
+See image in [registry](https://hub.docker.com/r/olegbukatchuk/cron).
