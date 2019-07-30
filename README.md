@@ -3,7 +3,7 @@
 A simple wrapper over `docker` to all complex cron job to be run in other containers.
 
 ## config.json
-- `name`: Human readable name that will be used as the job filename. Will be converted into a slug. **[Optional]**
+- `name`: Human readable name that will be used as the job filename. Will be converted into a slug. **Optional**
 - `comment`: Comments to be included with crontab entry. **Optional**
 - `schedule`: Crontab schedule syntax as described in https://en.wikipedia.org/wiki/Cron. Examples: `@hourly`, `@every 1h30m`, `* * * * *`. **Required**
 - `command`: Command to be run on in crontab container or docker container/image. Required.
