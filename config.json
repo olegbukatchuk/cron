@@ -1,0 +1,6 @@
+[{
+	"comment":"List Home",
+	"schedule":"* * * * *",
+	"command":"sh -c 'ls -la $USER'",
+	"container":"webapp"
+}]
