@@ -24,7 +24,6 @@ See [`config.sample.json`](https://github.com/olegbukatchuk/docker-cron/blob/mas
 docker build -t cron .
 docker run -d \
     -v /var/run/docker.sock:/var/run/docker.sock:ro \
-    -v ./env:/opt/env:ro \
     -v /path/to/config/dir:/opt/cron:rw \
     -v /path/to/logs:/var/log/cron:rw \
     cron
