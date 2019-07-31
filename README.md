@@ -1,4 +1,4 @@
-# docker-cron
+# cron (in docker)
 
 A simple wrapper over `docker` to all complex cron job to be run in other containers.
 
